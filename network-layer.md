@@ -11,8 +11,9 @@ Tầng mạng có nhiệm vụ chuyển các gói tin(**segment**) của tầng 
 </li>
 <li>Chuyển tiếp(forwarding): chuyển gói tin từ  cổng vào sang cổng ra thích hợp ở router</li>
 <li>Thiết lập đường truyền: kiểu bắt tay giữa các router</li>
-
+</ul>
 ###1.Mô hình dịch vụ mạng
+
 ####1.1 Chuyển mạch ảo(Virtual circuit-VC)
 Cung cấp dịch vụ kết nối
 Có 3 giai đoạn trong chuyển mạch ảo:

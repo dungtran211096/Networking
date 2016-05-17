@@ -51,10 +51,13 @@ Chức năng chính của router
 
 ###3.Gói dữ liệu IP (internet protocol)
 <img src="http://i.imgur.com/cSmFEE4.png">
-version: Giải quyết theo phiên bản
-Headerlength: xác định vị trí bắt đầ của dữ liệu thực sự trong gói dữ liệu IP
-Type of service: cấp độ ưu tiên
-Upper layer protocol: Chỉ ra số giao thức của tầng trên 6:TCp 17 UDP
-TTL: trường này sẽ giảm đi 1 khi mỗi lần gói tin đi qua 1 router.TTL = 0 router sẽ loại bỏ gói tin.Đảm bảo gói tin không thể lưu chuyển mãi mai trong mạng
+<ul>
+<li>version: Giải quyết theo phiên bản</li>
+<li>Headerlength: xác định vị trí bắt đầ của dữ liệu thực sự trong gói dữ liệu IP</li>
+<li>Type of service: cấp độ ưu tiên</li>
+<li>Upper layer protocol: Chỉ ra số giao thức của tầng trên 6:TCp 17 UDP</li>
+<li>TTL: trường này sẽ giảm đi 1 khi mỗi lần gói tin đi qua 1 router.TTL = 0 router sẽ loại bỏ gói tin.Đảm bảo gói tin không thể lưu chuyển mãi mai trong mạng</li>
+</ul>
+
 
 ####3.1 Phân mảnh và hợp nhất gói tin 
